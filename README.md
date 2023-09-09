@@ -67,4 +67,4 @@
     ./checker.sh
 ```
 
-![Exemplu rulare program:](https://gifyu.com/image/S4bJ4)
+![](https://github.com/DrescoAV/LanParty_Simulator/blob/main/LanParty%20Simulator%20Gif.gif)
