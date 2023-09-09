@@ -45,6 +45,8 @@
 
 ## Utilizare program
 
+![](https://github.com/DrescoAV/LanParty_Simulator/blob/main/LanParty%20Simulator%20Gif.gif)
+
 ### Compilarea programului
 
 ```bash
@@ -57,11 +59,11 @@
     ./lanParty c.in d.in r.out
 ```
 
-`c.in - fisier ce contine cerintele`
+``c.in - fisier ce contine cerintele``
 
-`d.in - fisier ce contine datele de intrare`
+``d.in - fisier ce contine datele de intrare``
 
-`r.out - fisier ce contine datele de iesire`
+``r.out - fisier ce contine datele de iesire``
 
 ### Rulare checker
 
@@ -69,4 +71,3 @@
     ./checker.sh
 ```
 
-![](https://github.com/DrescoAV/LanParty_Simulator/blob/main/LanParty%20Simulator%20Gif.gif)
