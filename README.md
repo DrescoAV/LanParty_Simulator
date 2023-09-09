@@ -58,7 +58,9 @@
 ```
 
 `c.in - fisier ce contine cerintele`
+
 `d.in - fisier ce contine datele de intrare`
+
 `r.out - fisier ce contine datele de iesire`
 
 ### Rulare checker
