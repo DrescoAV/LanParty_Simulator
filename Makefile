@@ -17,5 +17,6 @@ pack:
 
 clean:
 	rm -f $(TARGETS) $(OBJS)
+	rm -rf out
 
 .PHONY: pack clean	

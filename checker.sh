@@ -45,8 +45,8 @@ function run_test_with_valgrind() {
 	# $2: Cerinte file
 	# $3: Date file
 
-	valgrind_log="$PWD/valgrind/valgrind_log_$1.out"
-	file_out="$PWD/valgrind/valgrind_output_$1.out"
+	valgrind_log="$PWD/testing/valgrind/valgrind_log_$1.out"
+	file_out="$PWD/testing/valgrind/valgrind_output_$1.out"
 
 	valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --log-file="$valgrind_log" ./$EXEC_NAME "$2" "$3" "$file_out"
 
@@ -153,9 +153,9 @@ function check_readme {
 make clean
 # Prepare output directory
 rm -rf out/
-mkdir out
-rm -rf ./valgrind
-mkdir ./valgrind
+mkdir testing/out
+rm -rf testing/valgrind
+mkdir testing/valgrind
 # Build
 make
 
@@ -167,3 +167,4 @@ echo "$DELIM"
 check_readme
 echo
 show_total
+make clean
